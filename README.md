@@ -10,3 +10,8 @@ MultithreadingSftp，多设备配置自动下载保存，配置文件自动命�
   2.使用前需要根据脚本下载后存放的磁盘位置以及备份文件的存储位置修改DeviceCfgBackup_v2.0.py脚本中的绝对路径信息。
   
   3.暂未添加线程数限制，后期会加入。
+  
+  
+  
+
+It is not pretty (sorry!) but it does the job for me. 
