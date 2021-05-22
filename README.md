@@ -25,6 +25,7 @@ MultithreadingSftp，多设备配置自动下载保存，配置文件自动命�
   4.增加下载并发连接数限制，可以通过修改max_connections参数的数值限制脚本的save和sftp下载并发数
 
 使用注意：
+
 DeviceCfgBackup.py通过读取DeviceIP.xlsx文件的设备信息来保存配置，使用前需要先将设备的信息保存在DeviceIP.xlsx文件中。
 您可以直接通过其他表格将设备信息拷贝入DeviceIP.xlsx，对于IP字段脚本有针对除数字和"."外字符的过滤以防止IP字段中含有空格或其他非必要字符导致运行失败可放心使用。 
   
